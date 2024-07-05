@@ -11,12 +11,12 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Устанавливаем переменные окружения
-ENV TELEGRAM_TOKEN=7494670800:AAHOhwQjUZcKEhS8UgLbMEyHaXkR6B8zFx8
+ENV TELEGRAM_TOKEN=**********:************************************
 ENV DB_NAME=postgres
 ENV DB_USER=postgres
-ENV DB_PASSWORD=2778
+ENV DB_PASSWORD=****
 ENV DB_HOST=db
-ENV DB_PORT=5432
+ENV DB_PORT=****
 
 # Делаем скрипт запуска исполняемым
 RUN chmod +x /app/entrypoint.sh
