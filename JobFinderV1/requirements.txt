@@ -1,0 +1,4 @@
+aiogram==2.15
+psycopg2-binary
+python-dotenv
+selenium
